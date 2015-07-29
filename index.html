@@ -11,7 +11,7 @@ humantime: 9:00 am - 4:30 pm                                # use the format '9:
 startdate: 2015-08-04                                       # use YYYY-MM-DD format like 2015-01-01
 enddate: 2015-08-05                                         # use YYYY-MM-DD format like 2015-01-02
 instructor: ['David Dotson', 'Victor Cordero', 'Blake Joyce', 'Cameron Mercer', 'Abhijith Rajan'] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper:     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ['Piyanat (Boom) Kittiwisit', 'Alyssa Rhoden', 'Kim Ward-Duong']    # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: abhijithrajan@asu.edu # contact email address for workshop organizer
 etherpad: https://etherpad.mozilla.org/LqL3VHHWxy           # optional (insert the URL for your Etherpad if you're using one)
 eventbrite: # optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
@@ -55,10 +55,9 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   is to help scientists and engineers get more research done in less
   time and with less pain by teaching them basic lab skills for
   scientific computing.  This hands-on workshop will cover basic
-  concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
-  help one another and to apply what they have learned to their own
-  research problems.
+  concepts and tools, including program design, version control, and task
+  automation.  Participants will be encouraged to help one another and to apply
+  what they have learned to their own research problems.
 </p>
 <p align="center">
   <em>
@@ -139,28 +138,33 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   2' to be actual dates or days of the week.
 -->
 <h2>Schedule</h2>
+<p>
+  Participants can attend either the Python or the Matlab session, which will
+  happen in parallel in separate rooms. The lessons on the Unix shell and Git
+  will take place in one room.
+</p>
 
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>09:00</td>  <td colspan="2">Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>10:30</td>  <td colspan="2">Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td colspan="2">Lunch break</td> </tr>
       <tr> <td>13:00</td>  <td>Building programs with Python</td> <td>Programming with Matlab</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>14:30</td>  <td colspan="2">Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td colspan="2">Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Python continued</td> <td>Matlab continued</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>10:30</td>  <td colspan="2">Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td colspan="2">Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td colspan="2">Version control with Git</td> </tr>
+      <tr> <td>14:30</td>  <td colspan="2">Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td colspan="2">Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -246,7 +250,6 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Writing Matlab scripts</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -442,7 +445,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
            the workshop will teach Python using something other than
            the IPython notebook.
            Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
-  <h3>Python</h3>
+  <h3>Python (please install even if you are not attending the Python lesson)</h3>
 
   <p>
     <a href="http://python.org">Python</a> is a popular language for
@@ -532,9 +535,21 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
       </ol>
     </div>
   </div>
+</div> <!-- End of 'Python' section. -->
+
+<div id="matlab">
+  <h3>Matlab (only install if you are attending the Matlab lesson)</h3>
+
+  <p>
+    <a href="http://www.mathworks.com/products/matlab/">Matlab</a> is a widely
+    used software package for scientific and engineering computing.  Installing
+    it requires purchasing a license.  It is up to you to set up a working
+    version of matlab on your own machine before the lesson.
+  </p>
+
   <p>
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
-</div> <!-- End of 'Python' section. -->
+</div> <!-- End of 'Matlab' section. -->
